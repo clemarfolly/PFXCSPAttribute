@@ -1,6 +1,10 @@
 # PFXCSPAttribute
 Batch file that changes the PFX file certificate to specify a CSP attribute. This change allows SHA256 signatures with A1 certificates using C#.
 
+usage:
+
+converter.bat "certificate file.pfx" password
+
 
 Based on the following sites:
 
